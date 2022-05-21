@@ -14,3 +14,18 @@ $(function() {
     });
     
 });
+
+//Task 2 5.21.22 Below
+$(function() {
+    $("#reserveButton").click(function(){
+        $("#reserveModal").modal('toggle')
+    });
+    
+});
+
+$(function (){
+    $("#loginButton").click(function(){
+        $("#loginModal").modal('toggle');
+    });
+});
+//Task 2 5.21.22 Above
